@@ -1,0 +1,9 @@
+After downloading this repository
+Rename folder to "ab"
+I This ab folder put all files and folder in this repository
+IDS code is located in \example\untitled folder
+1.c 2.c idscommon.c makefile project-conf .are the 5 source files
+The code for attacker node is at \core\mac\sicslowmac.c
+my pc name was p
+
+If you face problem for running code, Feel free to contace on pavanpongle@gmail.com
