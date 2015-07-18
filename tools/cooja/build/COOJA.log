@@ -1,0 +1,27 @@
+[11:19:00 - AWT-EventQueue-0] [GUI.java:2846] [INFO] - External tools default settings: /external_tools_linux.config
+[11:19:00 - AWT-EventQueue-0] [GUI.java:2876] [INFO] - External tools user settings: /home/p/.cooja.user.properties
+[11:19:09 - Thread-0] [Simulation.java:423] [INFO] - Simulation random seed: 123458
+[11:19:09 - Thread-0] [CompileContiki.java:140] [INFO] - > make 1.cooja TARGET=cooja 
+[11:19:13 - Thread-0] [ContikiMoteType.java:384] [INFO] - Creating core communicator between Java class 'Lib1' and Contiki library 'mtype371.cooja'
+[11:19:16 - Thread-0] [ContikiMoteType.java:452] [INFO] - mtype371.cooja: data section at 0x29020 (528 == 0x210 bytes)
+[11:19:16 - Thread-0] [ContikiMoteType.java:459] [INFO] - mtype371.cooja: BSS section at 0x29240 (63592 == 0xf868 bytes)
+[11:19:16 - Thread-0] [ContikiMoteType.java:470] [INFO] - mtype371.cooja: no common section found
+[11:19:16 - Thread-0] [ContikiMoteType.java:477] [WARN] - mtype371.cooja: no readonly section found
+[11:19:16 - Thread-0] [ContikiMoteType.java:513] [INFO] - mtype371.cooja: offsetting Cooja mote address space: -2024329216
+[11:19:16 - Thread-0] [CompileContiki.java:140] [INFO] - > make 2.sky TARGET=sky 
+[11:19:16 - Thread-0] [ContikiRadio.java:366] [INFO] - Radio bitrate reconfigured to (kbps): 250.0
+[11:19:17 - Thread-0] [MspMote.java:232] [INFO] - Loading firmware from: /home/p/ab/examples/Untitled Folder/2.sky
+[11:19:17 - Thread-0] [MspMote.java:232] [INFO] - Loading firmware from: /home/p/ab/examples/Untitled Folder/2.sky
+[11:19:17 - Thread-0] [MspMote.java:232] [INFO] - Loading firmware from: /home/p/ab/examples/Untitled Folder/2.sky
+[11:19:17 - Thread-0] [MspMote.java:232] [INFO] - Loading firmware from: /home/p/ab/examples/Untitled Folder/2.sky
+[11:19:17 - Thread-0] [MspMote.java:232] [INFO] - Loading firmware from: /home/p/ab/examples/Untitled Folder/2.sky
+[11:19:17 - Thread-0] [MspMote.java:232] [INFO] - Loading firmware from: /home/p/ab/examples/Untitled Folder/2.sky
+[11:19:17 - Thread-0] [MspMote.java:232] [INFO] - Loading firmware from: /home/p/ab/examples/Untitled Folder/2.sky
+[11:19:17 - Thread-0] [MspMote.java:232] [INFO] - Loading firmware from: /home/p/ab/examples/Untitled Folder/2.sky
+[11:19:17 - Thread-0] [MspMote.java:232] [INFO] - Loading firmware from: /home/p/ab/examples/Untitled Folder/2.sky
+[11:19:17 - Thread-0] [MspMote.java:232] [INFO] - Loading firmware from: /home/p/ab/examples/Untitled Folder/2.sky
+[11:19:17 - Thread-0] [MspMote.java:232] [INFO] - Loading firmware from: /home/p/ab/examples/Untitled Folder/2.sky
+[11:19:17 - Thread-0] [MspMote.java:232] [INFO] - Loading firmware from: /home/p/ab/examples/Untitled Folder/2.sky
+[11:19:17 - Thread-0] [MspMote.java:232] [INFO] - Loading firmware from: /home/p/ab/examples/Untitled Folder/2.sky
+[11:19:17 - Thread-0] [MspMote.java:232] [INFO] - Loading firmware from: /home/p/ab/examples/Untitled Folder/2.sky
+[11:19:17 - Thread-0] [MspMote.java:232] [INFO] - Loading firmware from: /home/p/ab/examples/Untitled Folder/2.sky

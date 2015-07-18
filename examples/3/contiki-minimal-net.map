@@ -1,0 +1,965 @@
+Archive member included to satisfy reference by file (symbol)
+
+contiki-minimal-net.a(etimer.o)
+                              2.co (etimer_set)
+contiki-minimal-net.a(ctimer.o)
+                              2.co (ctimer_set)
+contiki-minimal-net.a(tcpip.o)
+                              2.co (udp_new)
+contiki-minimal-net.a(uip-udp-packet.)
+                              2.co (uip_udp_packet_sendto)
+contiki-minimal-net.a(uip.o)  contiki-minimal-net.a(tcpip.o) (uip_aligned_buf)
+contiki-minimal-net.a(contiki-main.o)
+                              /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o (main)
+contiki-minimal-net.a(clock.o)
+                              contiki-minimal-net.a(contiki-main.o) (clock_init)
+contiki-minimal-net.a(tapdev-drv.o)
+                              contiki-minimal-net.a(contiki-main.o) (tapdev_process)
+contiki-minimal-net.a(tapdev.o)
+                              contiki-minimal-net.a(contiki-main.o) (tapdev_fd)
+contiki-minimal-net.a(process.o)
+                              contiki-minimal-net.a(etimer.o) (process_current)
+contiki-minimal-net.a(procinit.o)
+                              contiki-minimal-net.a(contiki-main.o) (procinit_init)
+contiki-minimal-net.a(autostart.o)
+                              contiki-minimal-net.a(contiki-main.o) (autostart_start)
+contiki-minimal-net.a(serial-line.o)
+                              contiki-minimal-net.a(contiki-main.o) (serial_line_input_byte)
+contiki-minimal-net.a(timer.o)
+                              contiki-minimal-net.a(etimer.o) (timer_set)
+contiki-minimal-net.a(list.o)
+                              contiki-minimal-net.a(ctimer.o) (list_init)
+contiki-minimal-net.a(ringbuf.o)
+                              contiki-minimal-net.a(serial-line.o) (ringbuf_init)
+contiki-minimal-net.a(uip_arp.o)
+                              contiki-minimal-net.a(tapdev-drv.o) (uip_arp_arpin)
+/usr/lib/i386-linux-gnu/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o (__libc_csu_init)
+/usr/lib/i386-linux-gnu/libc_nonshared.a(atexit.oS)
+                              contiki-minimal-net.a(tapdev.o) (atexit)
+
+Allocating common symbols
+Common symbol       size              file
+
+uip_draddr          0x4               contiki-minimal-net.a(uip.o)
+uip_slen            0x2               contiki-minimal-net.a(uip.o)
+uip_acc32           0x4               contiki-minimal-net.a(uip.o)
+uip_conns           0x5a0             contiki-minimal-net.a(uip.o)
+uip_netmask         0x4               contiki-minimal-net.a(uip.o)
+uip_hostaddr        0x4               contiki-minimal-net.a(uip.o)
+serial_line_event_message
+                    0x1               contiki-minimal-net.a(serial-line.o)
+uip_appdata         0x4               contiki-minimal-net.a(uip.o)
+uip_flags           0x1               contiki-minimal-net.a(uip.o)
+uip_aligned_buf     0x510             contiki-minimal-net.a(uip.o)
+uip_listenports     0x50              contiki-minimal-net.a(uip.o)
+uip_len             0x2               contiki-minimal-net.a(uip.o)
+tcpip_event         0x1               contiki-minimal-net.a(tcpip.o)
+uip_sappdata        0x4               contiki-minimal-net.a(uip.o)
+uip_udp_conns       0xc8              contiki-minimal-net.a(uip.o)
+uip_udp_conn        0x4               contiki-minimal-net.a(uip.o)
+uip_conn            0x4               contiki-minimal-net.a(uip.o)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 2.co
+ .note.GNU-stack
+                0x0000000000000000        0x0 contiki-minimal-net.a(etimer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 contiki-minimal-net.a(ctimer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 contiki-minimal-net.a(tcpip.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 contiki-minimal-net.a(uip-udp-packet.)
+ .note.GNU-stack
+                0x0000000000000000        0x0 contiki-minimal-net.a(uip.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 contiki-minimal-net.a(contiki-main.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 contiki-minimal-net.a(clock.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 contiki-minimal-net.a(tapdev-drv.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 contiki-minimal-net.a(tapdev.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 contiki-minimal-net.a(process.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 contiki-minimal-net.a(procinit.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 contiki-minimal-net.a(autostart.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 contiki-minimal-net.a(serial-line.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 contiki-minimal-net.a(timer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 contiki-minimal-net.a(list.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 contiki-minimal-net.a(ringbuf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 contiki-minimal-net.a(uip_arp.o)
+ .group         0x0000000000000000        0x8 /usr/lib/i386-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/lib/i386-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/i386-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .group         0x0000000000000000        0x8 /usr/lib/i386-linux-gnu/libc_nonshared.a(atexit.oS)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/lib/i386-linux-gnu/libc_nonshared.a(atexit.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/i386-linux-gnu/libc_nonshared.a(atexit.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+LOAD /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o
+LOAD /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o
+LOAD 2.co
+LOAD contiki-minimal-net.a
+LOAD /usr/lib/gcc/i686-linux-gnu/4.8/libgcc.a
+LOAD /usr/lib/gcc/i686-linux-gnu/4.8/libgcc_s.so
+LOAD /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/libc.so
+START GROUP
+LOAD /lib/i386-linux-gnu/libc.so.6
+LOAD /usr/lib/i386-linux-gnu/libc_nonshared.a
+LOAD /lib/i386-linux-gnu/ld-linux.so.2
+END GROUP
+LOAD /usr/lib/gcc/i686-linux-gnu/4.8/libgcc.a
+LOAD /usr/lib/gcc/i686-linux-gnu/4.8/libgcc_s.so
+LOAD /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o
+LOAD /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o
+                0x0000000008048000                PROVIDE (__executable_start, 0x8048000)
+                0x0000000008048154                . = (0x8048000 + SIZEOF_HEADERS)
+
+.interp         0x0000000008048154       0x13
+ *(.interp)
+ .interp        0x0000000008048154       0x13 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+
+.note.ABI-tag   0x0000000008048168       0x20
+ .note.ABI-tag  0x0000000008048168       0x20 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+
+.note.gnu.build-id
+                0x0000000008048188       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000008048188       0x24 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000080481ac      0x4e8
+ *(.gnu.hash)
+ .gnu.hash      0x00000000080481ac      0x4e8 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+
+.dynsym         0x0000000008048694      0xac0
+ *(.dynsym)
+ .dynsym        0x0000000008048694      0xac0 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+
+.dynstr         0x0000000008049154      0x87a
+ *(.dynstr)
+ .dynstr        0x0000000008049154      0x87a /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+
+.gnu.version    0x00000000080499ce      0x158
+ *(.gnu.version)
+ .gnu.version   0x00000000080499ce      0x158 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+
+.gnu.version_d  0x0000000008049b28        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+
+.gnu.version_r  0x0000000008049b28       0x60
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000008049b28       0x60 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+
+.rel.dyn        0x0000000008049b88       0x18
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data      0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000008049b88        0x8 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x0000000008049b90       0x10 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+ *(.rel.ifunc)
+
+.rel.plt        0x0000000008049ba0       0xa8
+ *(.rel.plt)
+ .rel.plt       0x0000000008049ba0       0xa8 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+                0x0000000008049c48                PROVIDE (__rel_iplt_start, .)
+ *(.rel.iplt)
+ .rel.iplt      0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+                0x0000000008049c48                PROVIDE (__rel_iplt_end, .)
+
+.init           0x0000000008049c48       0x23
+ *(SORT(.init))
+ .init          0x0000000008049c48       0x1e /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o
+                0x0000000008049c48                _init
+ .init          0x0000000008049c66        0x5 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o
+
+.plt            0x0000000008049c70      0x160
+ *(.plt)
+ .plt           0x0000000008049c70      0x160 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+                0x0000000008049c80                read@@GLIBC_2.0
+                0x0000000008049c90                memcpy@@GLIBC_2.0
+                0x0000000008049ca0                gettimeofday@@GLIBC_2.0
+                0x0000000008049cb0                select@@GLIBC_2.0
+                0x0000000008049cc0                __stack_chk_fail@@GLIBC_2.4
+                0x0000000008049cd0                __fdelt_chk@@GLIBC_2.15
+                0x0000000008049ce0                ioctl@@GLIBC_2.0
+                0x0000000008049cf0                perror@@GLIBC_2.0
+                0x0000000008049d00                __cxa_atexit@@GLIBC_2.1.3
+                0x0000000008049d10                puts@@GLIBC_2.0
+                0x0000000008049d20                system@@GLIBC_2.0
+                0x0000000008049d30                __memcpy_chk@@GLIBC_2.3.4
+                0x0000000008049d50                exit@@GLIBC_2.0
+                0x0000000008049d60                open@@GLIBC_2.0
+                0x0000000008049d70                __libc_start_main@@GLIBC_2.0
+                0x0000000008049d80                write@@GLIBC_2.0
+                0x0000000008049d90                setvbuf@@GLIBC_2.0
+                0x0000000008049da0                __printf_chk@@GLIBC_2.3.4
+                0x0000000008049db0                __fprintf_chk@@GLIBC_2.3.4
+                0x0000000008049dc0                abort@@GLIBC_2.0
+ *(.iplt)
+ .iplt          0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+
+.text           0x0000000008049dd0     0x3b8c
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000008049dd0       0x22 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+                0x0000000008049dd0                _start
+ .text          0x0000000008049df2        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o
+ *fill*         0x0000000008049df2        0xe 
+ .gnu.linkonce.t.__x86.get_pc_thunk.bx
+                0x0000000008049e00        0x4 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o
+                0x0000000008049e00                __x86.get_pc_thunk.bx
+ *fill*         0x0000000008049e04        0xc 
+ .text          0x0000000008049e10       0xbd /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o
+ *fill*         0x0000000008049ecd        0x3 
+ .text          0x0000000008049ed0      0x136 2.co
+ *fill*         0x000000000804a006        0xa 
+ .text          0x000000000804a010      0x2e3 contiki-minimal-net.a(etimer.o)
+                0x000000000804a061                etimer_request_poll
+                0x000000000804a1dd                etimer_set
+                0x000000000804a201                etimer_reset
+                0x000000000804a21d                etimer_restart
+                0x000000000804a239                etimer_adjust
+                0x000000000804a24f                etimer_expired
+                0x000000000804a25e                etimer_expiration_time
+                0x000000000804a268                etimer_start_time
+                0x000000000804a26f                etimer_pending
+                0x000000000804a27d                etimer_next_expiration_time
+                0x000000000804a291                etimer_stop
+ *fill*         0x000000000804a2f3        0xd 
+ .text          0x000000000804a300      0x2da contiki-minimal-net.a(ctimer.o)
+                0x000000000804a3dc                ctimer_init
+                0x000000000804a40a                ctimer_set
+                0x000000000804a485                ctimer_reset
+                0x000000000804a4de                ctimer_restart
+                0x000000000804a537                ctimer_stop
+                0x000000000804a578                ctimer_expired
+ *fill*         0x000000000804a5da        0x6 
+ .text          0x000000000804a5e0      0x5a8 contiki-minimal-net.a(tcpip.o)
+                0x000000000804a603                tcpip_output
+                0x000000000804a89a                tcpip_set_outputfunc
+                0x000000000804a8a4                tcp_unlisten
+                0x000000000804a90b                tcp_listen
+                0x000000000804a981                tcp_attach
+                0x000000000804a996                udp_attach
+                0x000000000804a9ab                udp_new
+                0x000000000804a9db                udp_broadcast_new
+                0x000000000804aa3d                tcpip_input
+                0x000000000804aa69                tcpip_poll_udp
+                0x000000000804aa8c                tcpip_poll_tcp
+                0x000000000804aaaf                tcp_connect
+                0x000000000804aaec                tcpip_uipcall
+ .text          0x000000000804ab88       0xb9 contiki-minimal-net.a(uip-udp-packet.)
+                0x000000000804ab88                uip_udp_packet_send
+                0x000000000804abf8                uip_udp_packet_sendto
+ *fill*         0x000000000804ac41        0xf 
+ .text          0x000000000804ac50     0x1594 contiki-minimal-net.a(uip.o)
+                0x000000000804acea                uip_setipid
+                0x000000000804acf5                uip_add32
+                0x000000000804add4                uip_chksum
+                0x000000000804adec                uip_ipchksum
+                0x000000000804ae14                uip_tcpchksum
+                0x000000000804ae20                uip_udpchksum
+                0x000000000804ae2c                uip_init
+                0x000000000804ae7d                uip_connect
+                0x000000000804afad                uip_udp_new
+                0x000000000804b09b                uip_unlisten
+                0x000000000804b0fa                uip_listen
+                0x000000000804b155                uip_process
+                0x000000000804c17c                uip_htons
+                0x000000000804c186                uip_htonl
+                0x000000000804c1a0                uip_send
+ .text          0x000000000804c1e4      0x3eb contiki-minimal-net.a(contiki-main.o)
+                0x000000000804c1e4                main
+                0x000000000804c53a                log_message
+                0x000000000804c565                uip_log
+                0x000000000804c588                _xassert
+                0x000000000804c5bd                sensors_light1
+ .text          0x000000000804c5cf       0xc7 contiki-minimal-net.a(clock.o)
+                0x000000000804c5cf                clock_init
+                0x000000000804c60e                clock_time
+                0x000000000804c64b                clock_seconds
+                0x000000000804c694                clock_delay
+ *fill*         0x000000000804c696        0xa 
+ .text          0x000000000804c6a0       0xe9 contiki-minimal-net.a(tapdev-drv.o)
+                0x000000000804c773                tapdev_output
+ .text          0x000000000804c789      0x373 contiki-minimal-net.a(tapdev.o)
+                0x000000000804c826                tapdev_fd
+                0x000000000804c82c                tapdev_init
+                0x000000000804c9e3                tapdev_poll
+                0x000000000804cab1                tapdev_send
+                0x000000000804cafa                tapdev_exit
+ *fill*         0x000000000804cafc        0x4 
+ .text          0x000000000804cb00      0x3c0 contiki-minimal-net.a(process.o)
+                0x000000000804cc65                process_alloc_event
+                0x000000000804cc76                process_exit
+                0x000000000804cc8c                process_init
+                0x000000000804ccb6                process_run
+                0x000000000804cd95                process_nevents
+                0x000000000804cda9                process_post
+                0x000000000804ce0f                process_post_synch
+                0x000000000804ce36                process_start
+                0x000000000804ce90                process_poll
+                0x000000000804ceb1                process_is_running
+ .text          0x000000000804cec0       0x36 contiki-minimal-net.a(procinit.o)
+                0x000000000804cec0                procinit_init
+ .text          0x000000000804cef6       0x58 contiki-minimal-net.a(autostart.o)
+                0x000000000804cef6                autostart_start
+                0x000000000804cf26                autostart_exit
+ .text          0x000000000804cf4e      0x1b0 contiki-minimal-net.a(serial-line.o)
+                0x000000000804d054                serial_line_input_byte
+                0x000000000804d0c7                serial_line_init
+ .text          0x000000000804d0fe       0x72 contiki-minimal-net.a(timer.o)
+                0x000000000804d0fe                timer_set
+                0x000000000804d119                timer_reset
+                0x000000000804d123                timer_restart
+                0x000000000804d135                timer_expired
+                0x000000000804d155                timer_remaining
+ .text          0x000000000804d170      0x171 contiki-minimal-net.a(list.o)
+                0x000000000804d170                list_init
+                0x000000000804d17b                list_head
+                0x000000000804d182                list_copy
+                0x000000000804d18f                list_tail
+                0x000000000804d1aa                list_chop
+                0x000000000804d1da                list_pop
+                0x000000000804d1ea                list_remove
+                0x000000000804d229                list_add
+                0x000000000804d260                list_push
+                0x000000000804d285                list_length
+                0x000000000804d2a5                list_insert
+                0x000000000804d2d0                list_item_next
+ .text          0x000000000804d2e1       0xc4 contiki-minimal-net.a(ringbuf.o)
+                0x000000000804d2e1                ringbuf_init
+                0x000000000804d2ff                ringbuf_put
+                0x000000000804d348                ringbuf_get
+                0x000000000804d384                ringbuf_size
+                0x000000000804d390                ringbuf_elements
+ .text          0x000000000804d3a5      0x4f4 contiki-minimal-net.a(uip_arp.o)
+                0x000000000804d50a                uip_arp_init
+                0x000000000804d52b                uip_arp_timer
+                0x000000000804d58c                uip_arp_arpin
+                0x000000000804d6af                uip_arp_out
+ *fill*         0x000000000804d899        0x7 
+ .text          0x000000000804d8a0       0x72 /usr/lib/i386-linux-gnu/libc_nonshared.a(elf-init.oS)
+                0x000000000804d8a0                __libc_csu_init
+                0x000000000804d910                __libc_csu_fini
+ *fill*         0x000000000804d912        0xe 
+ .text          0x000000000804d920       0x3c /usr/lib/i386-linux-gnu/libc_nonshared.a(atexit.oS)
+                0x000000000804d920                atexit
+ .text          0x000000000804d95c        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o
+ .text          0x000000000804d95c        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o
+ *(.gnu.warning)
+
+.fini           0x000000000804d95c       0x14
+ *(SORT(.fini))
+ .fini          0x000000000804d95c        0xf /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o
+                0x000000000804d95c                _fini
+ .fini          0x000000000804d96b        0x5 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o
+                0x000000000804d970                PROVIDE (__etext, .)
+                0x000000000804d970                PROVIDE (_etext, .)
+                0x000000000804d970                PROVIDE (etext, .)
+
+.rodata         0x000000000804d970      0x1e1
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000000000804d970        0x4 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+                0x000000000804d970                _fp_hw
+ .rodata.cst4   0x000000000804d974        0x4 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+                0x000000000804d974                _IO_stdin_used
+ .rodata        0x000000000804d978        0x8 2.co
+                0x000000000804d978                autostart_processes
+ .rodata.str1.1
+                0x000000000804d980       0x13 2.co
+ .rodata.str1.1
+                0x000000000804d993        0xc contiki-minimal-net.a(etimer.o)
+ .rodata.str1.1
+                0x000000000804d99f        0xf contiki-minimal-net.a(ctimer.o)
+ .rodata.str1.1
+                0x000000000804d9ae        0xd contiki-minimal-net.a(tcpip.o)
+ *fill*         0x000000000804d9bb        0x1 
+ .rodata        0x000000000804d9bc       0x4c contiki-minimal-net.a(uip.o)
+                0x000000000804da00                uip_all_zeroes_addr
+                0x000000000804da04                uip_broadcast_addr
+ .rodata.str1.1
+                0x000000000804da08       0xc3 contiki-minimal-net.a(contiki-main.o)
+ .rodata.str1.1
+                0x000000000804dacb        0xb contiki-minimal-net.a(tapdev-drv.o)
+ .rodata.str1.1
+                0x000000000804dad6       0x67 contiki-minimal-net.a(tapdev.o)
+                                         0x6b (size before relaxing)
+ .rodata.str1.1
+                0x000000000804db3d        0xe contiki-minimal-net.a(serial-line.o)
+ .rodata        0x000000000804db4b        0x6 contiki-minimal-net.a(uip_arp.o)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000804db54      0x3f4
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000804db54      0x3f4 2.co
+
+.eh_frame       0x000000000804df48      0xf34
+ *(.eh_frame)
+ .eh_frame      0x000000000804df48       0x3c /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000804df84       0x48 2.co
+                                         0x60 (size before relaxing)
+ .eh_frame      0x000000000804dfcc      0x190 contiki-minimal-net.a(etimer.o)
+                                        0x1a8 (size before relaxing)
+ .eh_frame      0x000000000804e15c      0x114 contiki-minimal-net.a(ctimer.o)
+                                        0x12c (size before relaxing)
+ .eh_frame      0x000000000804e270      0x1d8 contiki-minimal-net.a(tcpip.o)
+                                        0x1f0 (size before relaxing)
+ .eh_frame      0x000000000804e448       0x4c contiki-minimal-net.a(uip-udp-packet.)
+                                         0x64 (size before relaxing)
+ .eh_frame      0x000000000804e494      0x248 contiki-minimal-net.a(uip.o)
+                                        0x260 (size before relaxing)
+ .eh_frame      0x000000000804e6dc       0x78 contiki-minimal-net.a(contiki-main.o)
+                                         0x90 (size before relaxing)
+ .eh_frame      0x000000000804e754       0x64 contiki-minimal-net.a(clock.o)
+                                         0x7c (size before relaxing)
+ .eh_frame      0x000000000804e7b8       0x4c contiki-minimal-net.a(tapdev-drv.o)
+                                         0x64 (size before relaxing)
+ .eh_frame      0x000000000804e804       0xac contiki-minimal-net.a(tapdev.o)
+                                         0xc4 (size before relaxing)
+ .eh_frame      0x000000000804e8b0      0x19c contiki-minimal-net.a(process.o)
+                                        0x1b4 (size before relaxing)
+ .eh_frame      0x000000000804ea4c       0x20 contiki-minimal-net.a(procinit.o)
+                                         0x38 (size before relaxing)
+ .eh_frame      0x000000000804ea6c       0x40 contiki-minimal-net.a(autostart.o)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000804eaac       0x54 contiki-minimal-net.a(serial-line.o)
+                                         0x6c (size before relaxing)
+ .eh_frame      0x000000000804eb00       0x8c contiki-minimal-net.a(timer.o)
+                                         0xa4 (size before relaxing)
+ .eh_frame      0x000000000804eb8c      0x12c contiki-minimal-net.a(list.o)
+                                        0x144 (size before relaxing)
+ .eh_frame      0x000000000804ecb8       0x90 contiki-minimal-net.a(ringbuf.o)
+                                         0xa8 (size before relaxing)
+ .eh_frame      0x000000000804ed48       0xbc contiki-minimal-net.a(uip_arp.o)
+                                         0xd4 (size before relaxing)
+ .eh_frame      0x000000000804ee04       0x50 /usr/lib/i386-linux-gnu/libc_nonshared.a(elf-init.oS)
+                                         0x7c (size before relaxing)
+ .eh_frame      0x000000000804ee54       0x24 /usr/lib/i386-linux-gnu/libc_nonshared.a(atexit.oS)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x000000000804ee78        0x4 /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000804ee7c                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x000000000804ff08                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x000000000804ff08        0x0
+                0x000000000804ff08                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x000000000804ff08                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x000000000804ff08        0x4
+                0x000000000804ff08                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000804ff08        0x4 /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o
+                0x000000000804ff0c                PROVIDE (__init_array_end, .)
+
+.fini_array     0x000000000804ff0c        0x4
+                0x000000000804ff0c                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000804ff0c        0x4 /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o
+                0x000000000804ff10                PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x000000000804ff10        0x4
+ *(.jcr)
+ .jcr           0x000000000804ff10        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o
+ .jcr           0x000000000804ff10        0x4 /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x000000000804ff14       0xe8
+ *(.dynamic)
+ .dynamic       0x000000000804ff14       0xe8 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+                0x000000000804ff14                _DYNAMIC
+
+.got            0x000000000804fffc        0x4
+ *(.got)
+ .got           0x000000000804fffc        0x4 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+ *(.igot)
+                0x0000000008050ff4                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x0000000008050000       0x60
+ *(.got.plt)
+ .got.plt       0x0000000008050000       0x60 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+                0x0000000008050000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+
+.data           0x0000000008050060       0x7c
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000008050060        0x4 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+                0x0000000008050060                data_start
+                0x0000000008050060                __data_start
+ .data          0x0000000008050064        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o
+ .data          0x0000000008050064        0x4 /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o
+                0x0000000008050064                __dso_handle
+ .data          0x0000000008050068       0x10 2.co
+                0x0000000008050068                udp_client_process
+ .data          0x0000000008050078       0x10 contiki-minimal-net.a(etimer.o)
+                0x0000000008050078                etimer_process
+ .data          0x0000000008050088       0x10 contiki-minimal-net.a(ctimer.o)
+                0x0000000008050088                ctimer_process
+ .data          0x0000000008050098       0x10 contiki-minimal-net.a(tcpip.o)
+                0x0000000008050098                tcpip_process
+ .data          0x00000000080500a8        0x0 contiki-minimal-net.a(uip-udp-packet.)
+ .data          0x00000000080500a8        0x0 contiki-minimal-net.a(uip.o)
+ .data          0x00000000080500a8       0x14 contiki-minimal-net.a(contiki-main.o)
+                0x00000000080500a8                procinit
+ .data          0x00000000080500bc        0x0 contiki-minimal-net.a(clock.o)
+ .data          0x00000000080500bc       0x10 contiki-minimal-net.a(tapdev-drv.o)
+                0x00000000080500bc                tapdev_process
+ .data          0x00000000080500cc        0x0 contiki-minimal-net.a(tapdev.o)
+ .data          0x00000000080500cc        0x0 contiki-minimal-net.a(process.o)
+ .data          0x00000000080500cc        0x0 contiki-minimal-net.a(procinit.o)
+ .data          0x00000000080500cc        0x0 contiki-minimal-net.a(autostart.o)
+ .data          0x00000000080500cc       0x10 contiki-minimal-net.a(serial-line.o)
+                0x00000000080500cc                serial_line_process
+ .data          0x00000000080500dc        0x0 contiki-minimal-net.a(timer.o)
+ .data          0x00000000080500dc        0x0 contiki-minimal-net.a(list.o)
+ .data          0x00000000080500dc        0x0 contiki-minimal-net.a(ringbuf.o)
+ .data          0x00000000080500dc        0x0 contiki-minimal-net.a(uip_arp.o)
+ .data          0x00000000080500dc        0x0 /usr/lib/i386-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .data          0x00000000080500dc        0x0 /usr/lib/i386-linux-gnu/libc_nonshared.a(atexit.oS)
+ .data          0x00000000080500dc        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o
+ .data          0x00000000080500dc        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o
+
+.tm_clone_table
+                0x00000000080500dc        0x0
+ .tm_clone_table
+                0x00000000080500dc        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o
+ .tm_clone_table
+                0x00000000080500dc        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o
+
+.data1
+ *(.data1)
+                0x00000000080500dc                _edata = .
+                0x00000000080500dc                PROVIDE (edata, .)
+                0x00000000080500dc                . = .
+                0x00000000080500dc                __bss_start = .
+
+.bss            0x00000000080500e0     0x1234
+ *(.dynbss)
+ .dynbss        0x00000000080500e0       0x24 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+                0x00000000080500e0                stderr@@GLIBC_2.0
+                0x0000000008050100                stdout@@GLIBC_2.0
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000008050104        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o
+ .bss           0x0000000008050104        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o
+ .bss           0x0000000008050104        0x1 /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o
+ *fill*         0x0000000008050105       0x1b 
+ .bss           0x0000000008050120       0x38 2.co
+ .bss           0x0000000008050158        0x8 contiki-minimal-net.a(etimer.o)
+ .bss           0x0000000008050160        0x8 contiki-minimal-net.a(ctimer.o)
+ *fill*         0x0000000008050168       0x18 
+ .bss           0x0000000008050180      0x174 contiki-minimal-net.a(tcpip.o)
+ .bss           0x00000000080502f4        0x0 contiki-minimal-net.a(uip-udp-packet.)
+ .bss           0x00000000080502f4       0x12 contiki-minimal-net.a(uip.o)
+                0x00000000080502f4                uip_lladdr
+ .bss           0x0000000008050306        0x2 contiki-minimal-net.a(contiki-main.o)
+ .bss           0x0000000008050308        0x8 contiki-minimal-net.a(clock.o)
+ .bss           0x0000000008050310        0x0 contiki-minimal-net.a(tapdev-drv.o)
+ .bss           0x0000000008050310        0x8 contiki-minimal-net.a(tapdev.o)
+ *fill*         0x0000000008050318        0x8 
+ .bss           0x0000000008050320      0x1a3 contiki-minimal-net.a(process.o)
+                0x0000000008050320                process_current
+                0x0000000008050324                process_list
+ .bss           0x00000000080504c3        0x0 contiki-minimal-net.a(procinit.o)
+ .bss           0x00000000080504c3        0x0 contiki-minimal-net.a(autostart.o)
+ *fill*         0x00000000080504c3       0x1d 
+ .bss           0x00000000080504e0      0x148 contiki-minimal-net.a(serial-line.o)
+ .bss           0x0000000008050628        0x0 contiki-minimal-net.a(timer.o)
+ .bss           0x0000000008050628        0x0 contiki-minimal-net.a(list.o)
+ .bss           0x0000000008050628        0x0 contiki-minimal-net.a(ringbuf.o)
+ *fill*         0x0000000008050628       0x18 
+ .bss           0x0000000008050640       0x80 contiki-minimal-net.a(uip_arp.o)
+ .bss           0x00000000080506c0        0x0 /usr/lib/i386-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .bss           0x00000000080506c0        0x0 /usr/lib/i386-linux-gnu/libc_nonshared.a(atexit.oS)
+ .bss           0x00000000080506c0        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o
+ .bss           0x00000000080506c0        0x0 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o
+ *(COMMON)
+ COMMON         0x00000000080506c0        0x1 contiki-minimal-net.a(tcpip.o)
+                0x00000000080506c0                tcpip_event
+ *fill*         0x00000000080506c1       0x1f 
+ COMMON         0x00000000080506e0      0xc30 contiki-minimal-net.a(uip.o)
+                0x00000000080506e0                uip_draddr
+                0x00000000080506e4                uip_slen
+                0x00000000080506e6                uip_acc32
+                0x0000000008050700                uip_conns
+                0x0000000008050ca0                uip_netmask
+                0x0000000008050ca4                uip_hostaddr
+                0x0000000008050ca8                uip_appdata
+                0x0000000008050cac                uip_flags
+                0x0000000008050cc0                uip_aligned_buf
+                0x00000000080511e0                uip_listenports
+                0x0000000008051230                uip_len
+                0x0000000008051234                uip_sappdata
+                0x0000000008051240                uip_udp_conns
+                0x0000000008051308                uip_udp_conn
+                0x000000000805130c                uip_conn
+ COMMON         0x0000000008051310        0x1 contiki-minimal-net.a(serial-line.o)
+                0x0000000008051310                serial_line_event_message
+                0x0000000008051314                . = ALIGN ((. != 0x0)?0x4:0x1)
+ *fill*         0x0000000008051311        0x3 
+                0x0000000008051314                . = ALIGN (0x4)
+                0x0000000008051314                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000008051314                . = ALIGN (0x4)
+                0x0000000008051314                _end = .
+                0x0000000008051314                PROVIDE (end, .)
+                0x0000000008051314                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x24
+ *(.comment)
+ .comment       0x0000000000000000       0x24 /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o
+                                         0x25 (size before relaxing)
+ .comment       0x0000000000000000       0x25 2.co
+ .comment       0x0000000000000000       0x25 contiki-minimal-net.a(etimer.o)
+ .comment       0x0000000000000000       0x25 contiki-minimal-net.a(ctimer.o)
+ .comment       0x0000000000000000       0x25 contiki-minimal-net.a(tcpip.o)
+ .comment       0x0000000000000000       0x25 contiki-minimal-net.a(uip-udp-packet.)
+ .comment       0x0000000000000000       0x25 contiki-minimal-net.a(uip.o)
+ .comment       0x0000000000000000       0x25 contiki-minimal-net.a(contiki-main.o)
+ .comment       0x0000000000000000       0x25 contiki-minimal-net.a(clock.o)
+ .comment       0x0000000000000000       0x25 contiki-minimal-net.a(tapdev-drv.o)
+ .comment       0x0000000000000000       0x25 contiki-minimal-net.a(tapdev.o)
+ .comment       0x0000000000000000       0x25 contiki-minimal-net.a(process.o)
+ .comment       0x0000000000000000       0x25 contiki-minimal-net.a(procinit.o)
+ .comment       0x0000000000000000       0x25 contiki-minimal-net.a(autostart.o)
+ .comment       0x0000000000000000       0x25 contiki-minimal-net.a(serial-line.o)
+ .comment       0x0000000000000000       0x25 contiki-minimal-net.a(timer.o)
+ .comment       0x0000000000000000       0x25 contiki-minimal-net.a(list.o)
+ .comment       0x0000000000000000       0x25 contiki-minimal-net.a(ringbuf.o)
+ .comment       0x0000000000000000       0x25 contiki-minimal-net.a(uip_arp.o)
+ .comment       0x0000000000000000       0x25 /usr/lib/i386-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .comment       0x0000000000000000       0x25 /usr/lib/i386-linux-gnu/libc_nonshared.a(atexit.oS)
+ .comment       0x0000000000000000       0x25 /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x240
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 2.co
+ .debug_aranges
+                0x0000000000000020       0x20 contiki-minimal-net.a(etimer.o)
+ .debug_aranges
+                0x0000000000000040       0x20 contiki-minimal-net.a(ctimer.o)
+ .debug_aranges
+                0x0000000000000060       0x20 contiki-minimal-net.a(tcpip.o)
+ .debug_aranges
+                0x0000000000000080       0x20 contiki-minimal-net.a(uip-udp-packet.)
+ .debug_aranges
+                0x00000000000000a0       0x20 contiki-minimal-net.a(uip.o)
+ .debug_aranges
+                0x00000000000000c0       0x20 contiki-minimal-net.a(contiki-main.o)
+ .debug_aranges
+                0x00000000000000e0       0x20 contiki-minimal-net.a(clock.o)
+ .debug_aranges
+                0x0000000000000100       0x20 contiki-minimal-net.a(tapdev-drv.o)
+ .debug_aranges
+                0x0000000000000120       0x20 contiki-minimal-net.a(tapdev.o)
+ .debug_aranges
+                0x0000000000000140       0x20 contiki-minimal-net.a(process.o)
+ .debug_aranges
+                0x0000000000000160       0x20 contiki-minimal-net.a(procinit.o)
+ .debug_aranges
+                0x0000000000000180       0x20 contiki-minimal-net.a(autostart.o)
+ .debug_aranges
+                0x00000000000001a0       0x20 contiki-minimal-net.a(serial-line.o)
+ .debug_aranges
+                0x00000000000001c0       0x20 contiki-minimal-net.a(timer.o)
+ .debug_aranges
+                0x00000000000001e0       0x20 contiki-minimal-net.a(list.o)
+ .debug_aranges
+                0x0000000000000200       0x20 contiki-minimal-net.a(ringbuf.o)
+ .debug_aranges
+                0x0000000000000220       0x20 contiki-minimal-net.a(uip_arp.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x7ace
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x819 2.co
+ .debug_info    0x0000000000000819      0x5f7 contiki-minimal-net.a(etimer.o)
+ .debug_info    0x0000000000000e10      0x6d1 contiki-minimal-net.a(ctimer.o)
+ .debug_info    0x00000000000014e1     0x1110 contiki-minimal-net.a(tcpip.o)
+ .debug_info    0x00000000000025f1      0x4a9 contiki-minimal-net.a(uip-udp-packet.)
+ .debug_info    0x0000000000002a9a     0x109d contiki-minimal-net.a(uip.o)
+ .debug_info    0x0000000000003b37      0xc80 contiki-minimal-net.a(contiki-main.o)
+ .debug_info    0x00000000000047b7      0x22f contiki-minimal-net.a(clock.o)
+ .debug_info    0x00000000000049e6      0x3e7 contiki-minimal-net.a(tapdev-drv.o)
+ .debug_info    0x0000000000004dcd      0xe68 contiki-minimal-net.a(tapdev.o)
+ .debug_info    0x0000000000005c35      0x842 contiki-minimal-net.a(process.o)
+ .debug_info    0x0000000000006477      0x180 contiki-minimal-net.a(procinit.o)
+ .debug_info    0x00000000000065f7      0x1e9 contiki-minimal-net.a(autostart.o)
+ .debug_info    0x00000000000067e0      0x479 contiki-minimal-net.a(serial-line.o)
+ .debug_info    0x0000000000006c59      0x1a0 contiki-minimal-net.a(timer.o)
+ .debug_info    0x0000000000006df9      0x354 contiki-minimal-net.a(list.o)
+ .debug_info    0x000000000000714d      0x1ac contiki-minimal-net.a(ringbuf.o)
+ .debug_info    0x00000000000072f9      0x7d5 contiki-minimal-net.a(uip_arp.o)
+
+.debug_abbrev   0x0000000000000000     0x284e
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x277 2.co
+ .debug_abbrev  0x0000000000000277      0x2da contiki-minimal-net.a(etimer.o)
+ .debug_abbrev  0x0000000000000551      0x215 contiki-minimal-net.a(ctimer.o)
+ .debug_abbrev  0x0000000000000766      0x46c contiki-minimal-net.a(tcpip.o)
+ .debug_abbrev  0x0000000000000bd2      0x23f contiki-minimal-net.a(uip-udp-packet.)
+ .debug_abbrev  0x0000000000000e11      0x360 contiki-minimal-net.a(uip.o)
+ .debug_abbrev  0x0000000000001171      0x374 contiki-minimal-net.a(contiki-main.o)
+ .debug_abbrev  0x00000000000014e5      0x103 contiki-minimal-net.a(clock.o)
+ .debug_abbrev  0x00000000000015e8      0x23a contiki-minimal-net.a(tapdev-drv.o)
+ .debug_abbrev  0x0000000000001822      0x31c contiki-minimal-net.a(tapdev.o)
+ .debug_abbrev  0x0000000000001b3e      0x327 contiki-minimal-net.a(process.o)
+ .debug_abbrev  0x0000000000001e65       0xf3 contiki-minimal-net.a(procinit.o)
+ .debug_abbrev  0x0000000000001f58      0x129 contiki-minimal-net.a(autostart.o)
+ .debug_abbrev  0x0000000000002081      0x25e contiki-minimal-net.a(serial-line.o)
+ .debug_abbrev  0x00000000000022df       0xdf contiki-minimal-net.a(timer.o)
+ .debug_abbrev  0x00000000000023be      0x18b contiki-minimal-net.a(list.o)
+ .debug_abbrev  0x0000000000002549       0xea contiki-minimal-net.a(ringbuf.o)
+ .debug_abbrev  0x0000000000002633      0x21b contiki-minimal-net.a(uip_arp.o)
+
+.debug_line     0x0000000000000000     0x1d19
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x1b2 2.co
+ .debug_line    0x00000000000001b2      0x15c contiki-minimal-net.a(etimer.o)
+ .debug_line    0x000000000000030e      0x145 contiki-minimal-net.a(ctimer.o)
+ .debug_line    0x0000000000000453      0x277 contiki-minimal-net.a(tcpip.o)
+ .debug_line    0x00000000000006ca      0x154 contiki-minimal-net.a(uip-udp-packet.)
+ .debug_line    0x000000000000081e      0x52f contiki-minimal-net.a(uip.o)
+ .debug_line    0x0000000000000d4d      0x33c contiki-minimal-net.a(contiki-main.o)
+ .debug_line    0x0000000000001089       0xde contiki-minimal-net.a(clock.o)
+ .debug_line    0x0000000000001167      0x104 contiki-minimal-net.a(tapdev-drv.o)
+ .debug_line    0x000000000000126b      0x280 contiki-minimal-net.a(tapdev.o)
+ .debug_line    0x00000000000014eb      0x1c0 contiki-minimal-net.a(process.o)
+ .debug_line    0x00000000000016ab       0x8c contiki-minimal-net.a(procinit.o)
+ .debug_line    0x0000000000001737       0x99 contiki-minimal-net.a(autostart.o)
+ .debug_line    0x00000000000017d0       0xf9 contiki-minimal-net.a(serial-line.o)
+ .debug_line    0x00000000000018c9       0xb4 contiki-minimal-net.a(timer.o)
+ .debug_line    0x000000000000197d       0xe8 contiki-minimal-net.a(list.o)
+ .debug_line    0x0000000000001a65       0x9d contiki-minimal-net.a(ringbuf.o)
+ .debug_line    0x0000000000001b02      0x217 contiki-minimal-net.a(uip_arp.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x155d
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x3f9 2.co
+                                        0x498 (size before relaxing)
+ .debug_str     0x00000000000003f9      0x136 contiki-minimal-net.a(etimer.o)
+                                        0x310 (size before relaxing)
+ .debug_str     0x000000000000052f       0xec contiki-minimal-net.a(ctimer.o)
+                                        0x2d1 (size before relaxing)
+ .debug_str     0x000000000000061b      0x2b9 contiki-minimal-net.a(tcpip.o)
+                                        0x718 (size before relaxing)
+ .debug_str     0x00000000000008d4       0x8c contiki-minimal-net.a(uip-udp-packet.)
+                                        0x2ab (size before relaxing)
+ .debug_str     0x0000000000000960      0x2aa contiki-minimal-net.a(uip.o)
+                                        0x635 (size before relaxing)
+ .debug_str     0x0000000000000c0a      0x1d8 contiki-minimal-net.a(contiki-main.o)
+                                        0x5d0 (size before relaxing)
+ .debug_str     0x0000000000000de2       0x84 contiki-minimal-net.a(clock.o)
+                                        0x1c7 (size before relaxing)
+ .debug_str     0x0000000000000e66       0xb0 contiki-minimal-net.a(tapdev-drv.o)
+                                        0x2a1 (size before relaxing)
+ .debug_str     0x0000000000000f16      0x287 contiki-minimal-net.a(tapdev.o)
+                                        0x690 (size before relaxing)
+ .debug_str     0x000000000000119d       0xee contiki-minimal-net.a(process.o)
+                                        0x43c (size before relaxing)
+ .debug_str     0x000000000000128b       0x1a contiki-minimal-net.a(procinit.o)
+                                        0x15c (size before relaxing)
+ .debug_str     0x00000000000012a5       0x2a contiki-minimal-net.a(autostart.o)
+                                        0x18a (size before relaxing)
+ .debug_str     0x00000000000012cf       0xc2 contiki-minimal-net.a(serial-line.o)
+                                        0x298 (size before relaxing)
+ .debug_str     0x0000000000001391       0x27 contiki-minimal-net.a(timer.o)
+                                        0x164 (size before relaxing)
+ .debug_str     0x00000000000013b8       0x7f contiki-minimal-net.a(list.o)
+                                        0x118 (size before relaxing)
+ .debug_str     0x0000000000001437       0x37 contiki-minimal-net.a(ringbuf.o)
+                                        0x16c (size before relaxing)
+ .debug_str     0x000000000000146e       0xef contiki-minimal-net.a(uip_arp.o)
+                                        0x351 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x1620
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x65 2.co
+ .debug_loc     0x0000000000000065      0x11f contiki-minimal-net.a(etimer.o)
+ .debug_loc     0x0000000000000184       0xec contiki-minimal-net.a(ctimer.o)
+ .debug_loc     0x0000000000000270      0x223 contiki-minimal-net.a(tcpip.o)
+ .debug_loc     0x0000000000000493       0x94 contiki-minimal-net.a(uip-udp-packet.)
+ .debug_loc     0x0000000000000527      0x43c contiki-minimal-net.a(uip.o)
+ .debug_loc     0x0000000000000963      0x2c3 contiki-minimal-net.a(contiki-main.o)
+ .debug_loc     0x0000000000000c26       0x32 contiki-minimal-net.a(clock.o)
+ .debug_loc     0x0000000000000c58       0x20 contiki-minimal-net.a(tapdev-drv.o)
+ .debug_loc     0x0000000000000c78      0x193 contiki-minimal-net.a(tapdev.o)
+ .debug_loc     0x0000000000000e0b      0x203 contiki-minimal-net.a(process.o)
+ .debug_loc     0x000000000000100e       0x28 contiki-minimal-net.a(autostart.o)
+ .debug_loc     0x0000000000001036       0x6e contiki-minimal-net.a(serial-line.o)
+ .debug_loc     0x00000000000010a4       0x26 contiki-minimal-net.a(timer.o)
+ .debug_loc     0x00000000000010ca      0x1e7 contiki-minimal-net.a(list.o)
+ .debug_loc     0x00000000000012b1       0x3e contiki-minimal-net.a(ringbuf.o)
+ .debug_loc     0x00000000000012ef      0x331 contiki-minimal-net.a(uip_arp.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0x48
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x18 contiki-minimal-net.a(uip-udp-packet.)
+ .debug_ranges  0x0000000000000018       0x30 contiki-minimal-net.a(contiki-main.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(2.minimal-net elf32-i386)
